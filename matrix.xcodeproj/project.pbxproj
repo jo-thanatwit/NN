@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C875265C2235527C0041ACA2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C875265B2235527C0041ACA2 /* main.c */; };
+		C87526642235532F0041ACA2 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = C87526632235532F0041ACA2 /* matrix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C87526582235527C0041ACA2 /* matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = matrix; sourceTree = BUILT_PRODUCTS_DIR; };
 		C875265B2235527C0041ACA2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C87526622235532F0041ACA2 /* matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		C87526632235532F0041ACA2 /* matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C875265B2235527C0041ACA2 /* main.c */,
+				C87526622235532F0041ACA2 /* matrix.h */,
+				C87526632235532F0041ACA2 /* matrix.c */,
 			);
 			path = matrix;
 			sourceTree = "<group>";
@@ -88,6 +93,9 @@
 		C87526502235527C0041ACA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Thanatwit  Angsarawanee";
 				TargetAttributes = {
@@ -118,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87526642235532F0041ACA2 /* matrix.c in Sources */,
 				C875265C2235527C0041ACA2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
